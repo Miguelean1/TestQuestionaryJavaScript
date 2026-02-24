@@ -220,7 +220,7 @@ console.log(sarah);
 ---
 
 ### 14. All objects have prototypes.
-- A: true
+- A: true // <-- RESPUESTA
 - B: false
 
 ---
@@ -235,7 +235,7 @@ sum(1, '2');
 ```
 - A: NaN
 - B: TypeError
-- C: "12"
+- C: "12"  // <-- RESPUESTA
 - D: 3
 
 ---
@@ -249,7 +249,7 @@ console.log(number);
 ```
 - A: 1 1 2
 - B: 1 2 2
-- C: 0 2 2
+- C: 0 2 2  // <-- RESPUESTA
 - D: 0 1 2
 
 ---
@@ -268,7 +268,7 @@ const age = 21;
 getPersonInfo`${person} is ${age} years old`;
 ```
 - A: "Lydia" 21 ["", " is ", " years old"]
-- B: ["", " is ", " years old"] "Lydia" 21
+- B: ["", " is ", " years old"] "Lydia" 21  // <-- RESPUESTA
 - C: "Lydia" ["", " is ", " years old"] 21
 
 ---
@@ -281,7 +281,7 @@ function checkAge(data) {
   } else if (data == { age: 18 }) {
     console.log('You are still an adult.');
   } else {
-    console.log(`Hmm.. You don't have an age I guess`);
+    console.log(`Hmm.. You don't have an age I guess`); 
   }
 }
 
@@ -289,7 +289,7 @@ checkAge({ age: 18 });
 ```
 - A: You are an adult!
 - B: You are still an adult.
-- C: Hmm.. You don't have an age I guess
+- C: Hmm.. You don't have an age I guess // <-- RESPUESTA
 
 ---
 
