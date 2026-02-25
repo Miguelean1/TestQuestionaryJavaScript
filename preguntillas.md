@@ -184,9 +184,9 @@ Person.getFullName = function() {
 
 console.log(member.getFullName());
 ```
-- A: TypeError
+- A: TypeError 
 - B: SyntaxError
-- C: Lydia Hallie // <-- RESPUESTA
+- C: Lydia Hallie 
 - D: undefined undefined
 
 ---
@@ -215,13 +215,13 @@ console.log(sarah);
 - A: Target > Capturing > Bubbling
 - B: Bubbling > Target > Capturing
 - C: Target > Bubbling > Capturing
-- D: Capturing > Target > Bubbling
+- D: Capturing > Target > Bubbling // <-- RESPUESTA
 
 ---
 
 ### 14. All objects have prototypes.
-- A: true // <-- RESPUESTA
-- B: false
+- A: true 
+- B: false // <-- RESPUESTA
 
 ---
 
@@ -320,7 +320,7 @@ getAge();
 ```
 - A: 21
 - B: undefined
-- C: ReferenceError
+- C: ReferenceError // <-- RESPUESTA
 - D: TypeError
 
 ---
