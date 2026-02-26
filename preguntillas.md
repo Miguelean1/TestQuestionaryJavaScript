@@ -329,7 +329,7 @@ getAge();
 ```javascript
 const sum = eval('10*10+5');
 ```
-- A: 105
+- A: 105 // <-- RESPUESTA
 - B: "105"
 - C: TypeError
 - D: "10*10+5"
@@ -341,7 +341,7 @@ const sum = eval('10*10+5');
 sessionStorage.setItem('cool_secret', 123);
 ```
 - A: Forever, the data doesn't get lost.
-- B: When the user closes the tab.
+- B: When the user closes the tab. // <-- RESPUESTA
 - C: When the user closes the entire browser, not only the tab.
 - D: When the user shuts off their computer.
 
@@ -355,7 +355,7 @@ var num = 10;
 console.log(num);
 ```
 - A: 8
-- B: 10
+- B: 10 // <-- RESPUESTA
 - C: SyntaxError
 - D: ReferenceError
 
@@ -373,7 +373,7 @@ set.has(1);
 ```
 - A: false true false true
 - B: false true true true
-- C: true true false true
+- C: true true false true // <-- RESPUESTA
 - D: true true true true
 
 ---
@@ -385,13 +385,13 @@ console.log(obj);
 ```
 - A: { a: "one", b: "two" }
 - B: { b: "two", a: "three" }
-- C: { a: "three", b: "two" }
+- C: { a: "three", b: "two" }  // <-- RESPUESTA
 - D: SyntaxError
 
 ---
 
 ### 26. The JavaScript global execution context creates two things for you: the global object, and the "this" keyword.
-- A: true
+- A: true // <-- RESPUESTA
 - B: false
 - C: it depends
 
@@ -406,7 +406,7 @@ for (let i = 1; i < 5; i++) {
 ```
 - A: 1 2
 - B: 1 2 3
-- C: 1 2 4
+- C: 1 2 4 // <-- RESPUESTA
 - D: 1 3 4
 
 ---
@@ -421,7 +421,7 @@ const name = 'Lydia';
 
 console.log(name.giveLydiaPizza())
 ```
-- A: "Just give Lydia pizza already!"
+- A: "Just give Lydia pizza already!" // <-- RESPUESTA
 - B: TypeError: not a function
 - C: SyntaxError
 - D: undefined
@@ -440,7 +440,7 @@ a[c] = 456;
 console.log(a[b]);
 ```
 - A: 123
-- B: 456
+- B: 456 // <-- RESPUESTA
 - C: undefined
 - D: ReferenceError
 
@@ -457,7 +457,7 @@ foo();
 baz();
 ```
 - A: First Second Third
-- B: First Third Second
+- B: First Third Second // <-- RESPUESTA
 - C: Second First Third
 - D: Second Third First
 
@@ -475,7 +475,7 @@ baz();
 ```
 - A: Outer div
 - B: Inner div
-- C: button
+- C: button // <-- RESPUESTA
 - D: An array of all nested elements.
 
 ---
@@ -488,7 +488,7 @@ baz();
   </p>
 </div>
 ```
-- A: p div
+- A: p div // <-- RESPUESTA
 - B: div p
 - C: p
 - D: div
@@ -508,8 +508,8 @@ console.log(sayHi.bind(person, 21));
 ```
 - A: undefined is 21 Lydia is 21
 - B: function function
-- C: Lydia is 21 Lydia is 21
-- D: Lydia is 21 function
+- C: Lydia is 21 Lydia is 21 
+- D: Lydia is 21 function // <-- RESPUESTA
 
 ---
 
@@ -522,7 +522,7 @@ function sayHi() {
 console.log(typeof sayHi());
 ```
 - A: "object"
-- B: "number"
+- B: "number" // <-- RESPUESTA
 - C: "function"
 - D: "undefined"
 
@@ -537,7 +537,7 @@ new Number(0);
 new Boolean(false);
 undefined;
 ```
-- A: 0, '', undefined
+- A: 0, '', undefined // <-- RESPUESTA
 - B: 0, new Number(0), '', new Boolean(false), undefined
 - C: 0, '', new Boolean(false), undefined
 - D: All of them are falsy
@@ -549,7 +549,7 @@ undefined;
 console.log(typeof typeof 1);
 ```
 - A: "number"
-- B: "string"
+- B: "string" // <-- RESPUESTA
 - C: "object"
 - D: "undefined"
 
@@ -563,7 +563,7 @@ console.log(numbers);
 ```
 - A: [1, 2, 3, null x 7, 11]
 - B: [1, 2, 3, 11]
-- C: [1, 2, 3, empty x 7, 11]
+- C: [1, 2, 3, empty x 7, 11] // <-- RESPUESTA
 - D: SyntaxError
 
 ---
@@ -582,7 +582,7 @@ console.log(numbers);
   console.log(y);
 })();
 ```
-- A: 1 undefined 2
+- A: 1 undefined 2 // <-- RESPUESTA
 - B: undefined undefined undefined
 - C: 1 1 2
 - D: 1 undefined undefined
@@ -590,7 +590,7 @@ console.log(numbers);
 ---
 
 ### 39. Everything in JavaScript is either a...
-- A: primitive or object
+- A: primitive or object // <-- RESPUESTA
 - B: function or object
 - C: trick question! only objects
 - D: number or object
@@ -608,7 +608,7 @@ console.log(numbers);
 ```
 - A: [0, 1, 2, 3, 1, 2]
 - B: [6, 1, 2]
-- C: [1, 2, 0, 1, 2, 3]
+- C: [1, 2, 0, 1, 2, 3] // <-- RESPUESTA
 - D: [1, 2, 6]
 
 ---
@@ -620,7 +620,7 @@ console.log(numbers);
 !!1;
 ```
 - A: false true false
-- B: false false true
+- B: false false true // <-- RESPUESTA
 - C: false true true
 - D: true true false
 
@@ -630,7 +630,7 @@ console.log(numbers);
 ```javascript
 setInterval(() => console.log('Hi'), 1000);
 ```
-- A: a unique id
+- A: a unique id // <-- RESPUESTA
 - B: the amount of milliseconds specified
 - C: the passed function
 - D: undefined
@@ -641,7 +641,7 @@ setInterval(() => console.log('Hi'), 1000);
 ```javascript
 [...'Lydia'];
 ```
-- A: ["L", "y", "d", "i", "a"]
+- A: ["L", "y", "d", "i", "a"] // <-- RESPUESTA
 - B: ["Lydia"]
 - C: [[], "Lydia"]
 - D: [["L", "y", "d", "i", "a"]]
@@ -662,7 +662,7 @@ console.log(gen.next().value);
 ```
 - A: [0, 10], [10, 20]
 - B: 20, 20
-- C: 10, 20
+- C: 10, 20 // <-- RESPUESTA
 - D: 0, 10 and 10, 20
 
 ---
@@ -680,7 +680,7 @@ const secondPromise = new Promise((res, rej) => {
 Promise.race([firstPromise, secondPromise]).then(res => console.log(res));
 ```
 - A: "one"
-- B: "two"
+- B: "two" // <-- RESPUESTA
 - C: "two" "one"
 - D: "one" "two"
 
@@ -697,7 +697,7 @@ console.log(members);
 - A: null
 - B: [null]
 - C: [{}]
-- D: [{ name: "Lydia" }]
+- D: [{ name: "Lydia" }] // <-- RESPUESTA
 
 ---
 
@@ -713,7 +713,7 @@ for (const item in person) {
 }
 ```
 - A: { name: "Lydia" }, { age: 21 }
-- B: "name", "age"
+- B: "name", "age" // <-- RESPUESTA
 - C: "Lydia", 21
 - D: ["name", "Lydia"], ["age", 21]
 
@@ -726,7 +726,7 @@ console.log(3 + 4 + '5');
 - A: "345"
 - B: "75"
 - C: 12
-- D: "12"
+- D: "12" // <-- RESPUESTA
 
 ---
 
@@ -736,7 +736,7 @@ const num = parseInt('7*6', 10);
 ```
 - A: 42
 - B: "42"
-- C: 7
+- C: 7 // <-- RESPUESTA
 - D: NaN
 
 ---
@@ -750,7 +750,7 @@ const num = parseInt('7*6', 10);
 ```
 - A: []
 - B: [null, null, null]
-- C: [undefined, undefined, undefined]
+- C: [undefined, undefined, undefined] // <-- RESPUESTA
 - D: [ 3 x empty ]
 
 ---
@@ -769,7 +769,7 @@ getInfo(person, birthYear);
 
 console.log(person, birthYear);
 ```
-- A: { name: "Lydia" }, "1997"
+- A: { name: "Lydia" }, "1997" // <-- RESPUESTA
 - B: { name: "Sarah" }, "1998"
 - C: { name: "Lydia" }, "1998"
 - D: { name: "Sarah" }, "1997"
@@ -796,7 +796,7 @@ sayHi();
 - A: It worked! Hello world!
 - B: Oh no an error: undefined
 - C: SyntaxError: can only throw Error objects
-- D: Oh no an error: Hello world!
+- D: Oh no an error: Hello world! // <-- RESPUESTA
 
 ---
 
@@ -811,7 +811,7 @@ const myCar = new Car();
 console.log(myCar.make);
 ```
 - A: "Lamborghini"
-- B: "Maserati"
+- B: "Maserati" // <-- RESPUESTA
 - C: ReferenceError
 - D: TypeError
 
@@ -826,7 +826,7 @@ console.log(myCar.make);
 console.log(typeof x);
 console.log(typeof y);
 ```
-- A: "undefined", "number"
+- A: "undefined", "number" // <-- RESPUESTA
 - B: "number", "number"
 - C: "object", "number"
 - D: "number", "undefined"
@@ -853,7 +853,7 @@ delete Dog.prototype.bark;
 
 pet.bark();
 ```
-- A: "Woof I am Mara", TypeError
+- A: "Woof I am Mara", TypeError // <-- RESPUESTA
 - B: "Woof I am Mara", "Woof I am Mara"
 - C: "Woof I am Mara", undefined
 - D: TypeError, TypeError
@@ -869,7 +869,7 @@ console.log(set);
 - A: [1, 1, 2, 3, 4]
 - B: [1, 2, 3, 4]
 - C: {1, 1, 2, 3, 4}
-- D: {1, 2, 3, 4}
+- D: {1, 2, 3, 4} // <-- RESPUESTA
 
 ---
 
@@ -888,7 +888,7 @@ console.log(myCounter);
 ```
 - A: 10
 - B: 11
-- C: Error
+- C: Error // <-- RESPUESTA
 - D: NaN
 
 ---
@@ -901,7 +901,7 @@ age = 21;
 console.log(delete name);
 console.log(delete age);
 ```
-- A: false, true
+- A: false, true // <-- RESPUESTA
 - B: "Lydia", 21
 - C: true, true
 - D: undefined, undefined
@@ -917,7 +917,7 @@ console.log(y);
 ```
 - A: [[1, 2, 3, 4, 5]]
 - B: [1, 2, 3, 4, 5]
-- C: 1
+- C: 1 // <-- RESPUESTA
 - D: [1]
 
 ---
@@ -930,7 +930,7 @@ const admin = { admin: true, ...user };
 console.log(admin);
 ```
 - A: { admin: true, user: { name: "Lydia", age: 21 } }
-- B: { admin: true, name: "Lydia", age: 21 }
+- B: { admin: true, name: "Lydia", age: 21 } // <-- RESPUESTA
 - C: { admin: true, user: ["Lydia", 21] }
 - D: { admin: true }
 
@@ -946,7 +946,7 @@ console.log(person);
 console.log(Object.keys(person));
 ```
 - A: { name: "Lydia", age: 21 }, ["name", "age"]
-- B: { name: "Lydia", age: 21 }, ["name"]
+- B: { name: "Lydia", age: 21 }, ["name"] // <-- RESPUESTA
 - C: { name: "Lydia"}, ["name", "age"]
 - D: { name: "Lydia"}, ["age"]
 
@@ -963,7 +963,7 @@ const settings = {
 const data = JSON.stringify(settings, ['level', 'health']);
 console.log(data);
 ```
-- A: "{"level":19, "health":90}"
+- A: "{"level":19, "health":90}" // <-- RESPUESTA
 - B: "{"username": "lydiahallie"}"
 - C: "["level", "health"]"
 - D: "{"username": "lydiahallie", "level":19, "health":90}"
@@ -985,7 +985,7 @@ console.log(num2);
 ```
 - A: 10, 10
 - B: 10, 11
-- C: 11, 11
+- C: 11, 11 // <-- RESPUESTA
 - D: 11, 12
 
 ---
@@ -1005,7 +1005,7 @@ multiply(value);
 ```
 - A: 20, 40, 80, 160
 - B: 20, 40, 20, 40
-- C: 20, 20, 20, 40
+- C: 20, 20, 20, 40 // <-- RESPUESTA
 - D: NaN, NaN, 20, 40
 
 ---
@@ -1015,7 +1015,7 @@ multiply(value);
 [1, 2, 3, 4].reduce((x, y) => console.log(x, y));
 ```
 - A: 1 2 and 3 3 and 6 4
-- B: 1 2 and 2 3 and 3 4
+- B: 1 2 and 2 3 and 3 4 // <-- RESPUESTA
 - C: 1 undefined and 2 undefined and 3 undefined and 4 undefined
 - D: 1 2 and undefined 3 and undefined 4
 
@@ -1052,7 +1052,7 @@ class Labrador extends Dog {
 };
 ```
 - A: 1
-- B: 2
+- B: 2 // <-- RESPUESTA
 - C: 3
 - D: 4
 
@@ -1070,7 +1070,7 @@ console.log('running sum.js');
 export const sum = (a, b) => a + b;
 ```
 - A: running index.js, running sum.js, 3
-- B: running sum.js, running index.js, 3
+- B: running sum.js, running index.js, 3 // <-- RESPUESTA
 - C: running sum.js, 3, running index.js
 - D: running index.js, undefined, running sum.js
 
@@ -1082,7 +1082,7 @@ console.log(Number(2) === Number(2));
 console.log(Boolean(false) === Boolean(false));
 console.log(Symbol('foo') === Symbol('foo'));
 ```
-- A: true, true, false
+- A: true, true, false // <-- RESPUESTA
 - B: false, true, false
 - C: true, false, true
 - D: true, true, true
@@ -1097,7 +1097,7 @@ console.log(name.padStart(2));
 ```
 - A: "Lydia Hallie", "Lydia Hallie"
 - B: " Lydia Hallie", " Lydia Hallie"
-- C: " Lydia Hallie", "Lydia Hallie"
+- C: " Lydia Hallie", "Lydia Hallie" // <-- RESPUESTA
 - D: "Lydia Hallie", "Lyd"
 
 ---
@@ -1106,7 +1106,7 @@ console.log(name.padStart(2));
 ```javascript
 console.log('🥑' + '💻');
 ```
-- A: "🥑💻"
+- A: "🥑💻" // <-- RESPUESTA
 - B: 257548
 - C: A string containing their code points
 - D: Error
@@ -1129,7 +1129,7 @@ console.log(/* 2 */); // JavaScript loves you back ❤️
 ```
 - A: game.next("Yes").value and game.next().value
 - B: game.next.value("Yes") and game.next.value()
-- C: game.next().value and game.next("Yes").value
+- C: game.next().value and game.next("Yes").value // <-- RESPUESTA
 - D: game.next.value() and game.next.value("Yes")
 
 ---
@@ -1156,7 +1156,7 @@ console.log(data);
 ```
 - A: "I made it!"
 - B: Promise {<resolved>: "I made it!"}
-- C: Promise {<pending>}
+- C: Promise {<pending>} // <-- RESPUESTA
 - D: undefined
 
 ---
@@ -1171,7 +1171,7 @@ const result = addToList('apple', ['banana']);
 console.log(result);
 ```
 - A: ['apple', 'banana']
-- B: 2
+- B: 2 // <-- RESPUESTA
 - C: true
 - D: undefined
 
@@ -1189,7 +1189,7 @@ shape.x = 100;
 console.log(shape);
 ```
 - A: { x: 100, y: 20 }
-- B: { x: 10, y: 20 }
+- B: { x: 10, y: 20 } // <-- RESPUESTA
 - C: { x: 100 }
 - D: ReferenceError
 
@@ -1204,7 +1204,7 @@ console.log(firstName);
 - A: "Lydia"
 - B: "myName"
 - C: undefined
-- D: ReferenceError
+- D: ReferenceError // <-- RESPUESTA
 
 ---
 
@@ -1214,7 +1214,7 @@ function sum(a, b) {
   return a + b;
 }
 ```
-- A: Yes
+- A: Yes // <-- RESPUESTA
 - B: No
 
 ---
@@ -1241,7 +1241,7 @@ console.log(addFunction(5 * 2));
 ```
 - A: Calculated! 20 Calculated! 20 Calculated! 20
 - B: Calculated! 20 From cache! 20 Calculated! 20
-- C: Calculated! 20 From cache! 20 From cache! 20
+- C: Calculated! 20 From cache! 20 From cache! 20 // <-- RESPUESTA
 - D: Calculated! 20 From cache! 20 Error
 
 ---
@@ -1258,7 +1258,7 @@ for (let item of myLifeSummedUp) {
   console.log(item);
 }
 ```
-- A: 0 1 2 3 and "☕" "💻" "🍷" "🍫"
+- A: 0 1 2 3 and "☕" "💻" "🍷" "🍫" // <-- RESPUESTA
 - B: "☕" "💻" "🍷" "🍫" and "☕" "💻" "🍷" "🍫"
 - C: "☕" "💻" "🍷" "🍫" and 0 1 2 3
 - D: 0 1 2 3 and {0: "☕", 1: "💻", 2: "🍷", 3: "🍫"}
@@ -1272,7 +1272,7 @@ console.log(list);
 ```
 - A: ["1 + 2", "1 * 2", "1 / 2"]
 - B: ["12", 2, 0.5]
-- C: [3, 2, 0.5]
+- C: [3, 2, 0.5] // <-- RESPUESTA
 - D: [1, 1, 1]
 
 ---
@@ -1286,7 +1286,7 @@ function sayHi(name) {
 console.log(sayHi());
 ```
 - A: Hi there,
-- B: Hi there, undefined
+- B: Hi there, undefined // <-- RESPUESTA
 - C: Hi there, null
 - D: ReferenceError
 
@@ -1311,7 +1311,7 @@ setTimeout(() => {
 }, 0);
 ```
 - A: "🥑" and "😍"
-- B: "🥑" and "😎"
+- B: "🥑" and "😎" // <-- RESPUESTA
 - C: "😍" and "😎"
 - D: "😎" and "😎"
 
@@ -1329,7 +1329,7 @@ city = 'Amsterdam';
 
 console.log(person);
 ```
-- A: { name: "Lydia", age: 21 }
+- A: { name: "Lydia", age: 21 } // <-- RESPUESTA
 - B: { name: "Lydia", age: 21, city: "Amsterdam" }
 - C: { name: "Lydia", age: 21, city: undefined }
 - D: "Amsterdam"
@@ -1352,7 +1352,7 @@ console.log(checkAge(21));
 ```
 - A: "Sorry, you're too young."
 - B: "Yay! You're old enough!"
-- C: ReferenceError
+- C: ReferenceError // <-- RESPUESTA
 - D: undefined
 
 ---
@@ -1365,7 +1365,7 @@ fetch('https://www.website.com/api/user/1')
 ```
 - A: The result of the fetch method.
 - B: The result of the second invocation of the fetch method.
-- C: The result of the callback in the previous .then().
+- C: The result of the callback in the previous .then(). // <-- RESPUESTA
 - D: It would always be undefined.
 
 ---
@@ -1376,7 +1376,7 @@ function getName(name) {
   const hasName = //
 }
 ```
-- A: !!name
+- A: !!name // <-- RESPUESTA
 - B: name
 - C: new Boolean(name)
 - D: name.length
@@ -1388,7 +1388,7 @@ function getName(name) {
 console.log('I want pizza'[0]);
 ```
 - A: """
-- B: "I"
+- B: "I" // <-- RESPUESTA
 - C: SyntaxError
 - D: undefined
 
@@ -1403,7 +1403,7 @@ function sum(num1, num2 = num1) {
 sum(10);
 ```
 - A: NaN
-- B: 20
+- B: 20 // <-- RESPUESTA
 - C: ReferenceError
 - D: undefined
 
@@ -1420,7 +1420,7 @@ import * as data from './module';
 
 console.log(data);
 ```
-- A: { default: function default(), name: "Lydia" }
+- A: { default: function default(), name: "Lydia" } // <-- RESPUESTA
 - B: { default: function default() }
 - C: { default: "Hello world", name: "Lydia" }
 - D: Global object of module.js
@@ -1440,8 +1440,8 @@ console.log(typeof member);
 ```
 - A: "class"
 - B: "function"
-- C: "object"
-- D: "string"
+- C: "object" // <-- RESPUESTA
+- D: "string" 
 
 ---
 
@@ -1454,7 +1454,7 @@ console.log(newList.push(5));
 - A: [1, 2, 3, 4, 5]
 - B: [1, 2, 3, 5]
 - C: [1, 2, 3, 4]
-- D: Error
+- D: Error // <-- RESPUESTA
 
 ---
 
@@ -1473,7 +1473,7 @@ console.log(giveLydiaChocolate.prototype);
 - A: { constructor: ...} { constructor: ...}
 - B: {} { constructor: ...}
 - C: { constructor: ...} {}
-- D: { constructor: ...} undefined
+- D: { constructor: ...} undefined // <-- RESPUESTA
 
 ---
 
@@ -1488,7 +1488,7 @@ for (const [x, y] of Object.entries(person)) {
   console.log(x, y);
 }
 ```
-- A: name Lydia and age 21
+- A: name Lydia and age 21 // <-- RESPUESTA
 - B: ["name", "Lydia"] and ["age", 21]
 - C: ["name", "age"] and undefined
 - D: Error
@@ -1506,7 +1506,7 @@ getItems(["banana", "apple"], "pear", "orange")
 - A: ["banana", "apple", "pear", "orange"]
 - B: [["banana", "apple"], "pear", "orange"]
 - C: ["banana", "apple", ["pear"], "orange"]
-- D: SyntaxError
+- D: SyntaxError // <-- RESPUESTA
 
 ---
 
@@ -1523,7 +1523,7 @@ console.log(nums(4, 2));
 console.log(nums(1, 2));
 ```
 - A: a is bigger, 6 and b is bigger, 3
-- B: a is bigger, undefined and b is bigger, undefined
+- B: a is bigger, undefined and b is bigger, undefined // <-- RESPUESTA
 - C: undefined and undefined
 - D: SyntaxError
 
@@ -1547,7 +1547,7 @@ const member = new Person();
 console.log(member.name);
 ```
 - A: "Lydia"
-- B: "Sarah"
+- B: "Sarah" // <-- RESPUESTA
 - C: Error: cannot redeclare Person
 - D: SyntaxError
 
@@ -1562,7 +1562,7 @@ const info = {
 console.log(info);
 console.log(Object.keys(info));
 ```
-- A: {Symbol('a'): 'b'} and ["{Symbol('a')"]
+- A: {Symbol('a'): 'b'} and ["{Symbol('a')"] // <-- RESPUESTA
 - B: {} and []
 - C: { a: "b" } and ["a"]
 - D: {Symbol('a'): 'b'} and []
@@ -1580,7 +1580,7 @@ const user = { name: "Lydia", age: 21 }
 console.log(getList(list))
 console.log(getUser(user))
 ```
-- A: [1, [2, 3, 4]] and SyntaxError
+- A: [1, [2, 3, 4]] and SyntaxError // <-- RESPUESTA
 - B: [1, [2, 3, 4]] and { name: "Lydia", age: 21 }
 - C: [1, 2, 3, 4] and { name: "Lydia", age: 21 }
 - D: Error and { name: "Lydia", age: 21 }
@@ -1595,7 +1595,7 @@ console.log(name());
 ```
 - A: SyntaxError
 - B: ReferenceError
-- C: TypeError
+- C: TypeError // <-- RESPUESTA
 - D: undefined
 
 ---
@@ -1606,7 +1606,7 @@ const output = `${[] && 'Im'}possible!
 You should${'' && `n't`} see a therapist after so much JavaScript lol`;
 ```
 - A: possible! You should see a therapist after so much JavaScript lol
-- B: Impossible! You should see a therapist after so much JavaScript lol
+- B: Impossible! You should see a therapist after so much JavaScript lol // <-- RESPUESTA
 - C: possible! You shouldn't see a therapist after so much JavaScript lol
 - D: Impossible! You shouldn't see a therapist after so much JavaScript lol
 
@@ -1622,7 +1622,7 @@ console.log(one, two, three);
 ```
 - A: false null []
 - B: null "" true
-- C: {} "" []
+- C: {} "" [] // <-- RESPUESTA
 - D: null null true
 
 ---
@@ -1647,7 +1647,7 @@ secondFunction();
 - A: I have resolved!, second and I have resolved!, second
 - B: second, I have resolved! and second, I have resolved!
 - C: I have resolved!, second and second, I have resolved!
-- D: second, I have resolved! and I have resolved!, second
+- D: second, I have resolved! and I have resolved!, second // <-- RESPUESTA
 
 ---
 
@@ -1665,7 +1665,7 @@ for (let item of set) {
 ```
 - A: 3, NaN, NaN
 - B: 3, 7, NaN
-- C: 3, Lydia2, [object Object]2
+- C: 3, Lydia2, [object Object]2 // <-- RESPUESTA
 - D: "12", Lydia2, [object Object]2
 
 ---
@@ -1676,7 +1676,7 @@ Promise.resolve(5);
 ```
 - A: 5
 - B: Promise {<pending>: 5}
-- C: Promise {<fulfilled>: 5}
+- C: Promise {<fulfilled>: 5} // <-- RESPUESTA
 - D: Error
 
 ---
@@ -1696,7 +1696,7 @@ const person = { name: 'Lydia' };
 compareMembers(person);
 ```
 - A: Not the same!
-- B: They are the same!
+- B: They are the same! // <-- RESPUESTA
 - C: ReferenceError
 - D: SyntaxError
 
@@ -1718,7 +1718,7 @@ console.log(colorConfig.colors[1]);
 ```
 - A: true
 - B: false
-- C: undefined
+- C: undefined // <-- RESPUESTA
 - D: TypeError
 
 ---
@@ -1727,7 +1727,7 @@ console.log(colorConfig.colors[1]);
 ```javascript
 console.log('❤️' === '❤️');
 ```
-- A: true
+- A: true // <-- RESPUESTA
 - B: false
 
 ---
@@ -1743,10 +1743,10 @@ emojis.reduce((acc, cur) => acc + '✨');
 emojis.slice(1, 2, '✨');
 emojis.splice(1, 2, '✨');
 ```
-- A: All of them
+- A: All of them 
 - B: map reduce slice splice
 - C: map slice splice
-- D: splice
+- D: splice // <-- RESPUESTA
 
 ---
 
@@ -1759,10 +1759,10 @@ info.favoriteFood = '🍝';
 
 console.log(food);
 ```
-- A: ['🍕', '🍫', '🥑', '🍔']
+- A: ['🍕', '🍫', '🥑', '🍔'] // <-- RESPUESTA
 - B: ['🍝', '🍫', '🥑', '🍔']
 - C: ['🍝', '🍕', '🍫', '🥑', '🍔']
-- D: ReferenceError
+- D: ReferenceError 
 
 ---
 
@@ -1770,7 +1770,7 @@ console.log(food);
 ```javascript
 JSON.parse();
 ```
-- A: Parses JSON to a JavaScript value
+- A: Parses JSON to a JavaScript value // <-- RESPUESTA
 - B: Parses a JavaScript object to JSON
 - C: Parses any JavaScript value to JSON
 - D: Parses JSON to a JavaScript object only
@@ -1791,7 +1791,7 @@ getName();
 - A: Lydia
 - B: Sarah
 - C: undefined
-- D: ReferenceError
+- D: ReferenceError // <-- RESPUESTA
 
 ---
 
@@ -1813,7 +1813,7 @@ console.log(two.next().value);
 ```
 - A: a and a
 - B: a and undefined
-- C: ['a', 'b', 'c'] and a
+- C: ['a', 'b', 'c'] and a // <-- RESPUESTA
 - D: a and ['a', 'b', 'c']
 
 ---
@@ -1822,7 +1822,7 @@ console.log(two.next().value);
 ```javascript
 console.log(`${(x => x)('I love')} to program`);
 ```
-- A: I love to program
+- A: I love to program // <-- RESPUESTA
 - B: undefined to program
 - C: ${(x => x)('I love') to program
 - D: TypeError
@@ -1841,7 +1841,7 @@ config = null;
 ```
 - A: The setInterval callback won't be invoked
 - B: The setInterval callback gets invoked once
-- C: The setInterval callback will still be called every second
+- C: The setInterval callback will still be called every second // <-- RESPUESTA
 - D: We never invoked config.alert(), config is null
 
 ---
@@ -1861,7 +1861,7 @@ myMap.get(myFunc);
 myMap.get(() => 'greeting');
 ```
 - A: 1
-- B: 2
+- B: 2 // <-- RESPUESTA
 - C: 2 and 3
 - D: All of them
 
@@ -1887,7 +1887,7 @@ console.log(person);
 ```
 - A: {name: "Sarah", age: 22}
 - B: {name: "Sarah", age: 23}
-- C: {name: "Lydia", age: 22}
+- C: {name: "Lydia", age: 22} // <-- RESPUESTA
 - D: {name: "Lydia", age: 23}
 
 ---
@@ -1900,7 +1900,7 @@ function sumValues(x, y, z) {
 ```
 - A: sumValues([...1, 2, 3])
 - B: sumValues([...[1, 2, 3]])
-- C: sumValues(...[1, 2, 3])
+- C: sumValues(...[1, 2, 3]) // <-- RESPUESTA
 - D: sumValues([1, 2, 3])
 
 ---
@@ -1912,8 +1912,8 @@ const list = ['🥳', '🤠', '🥰', '🤪'];
 
 console.log(list[(num += 1)]);
 ```
-- A: 🤠
-- B: 🥰
+- A: 🤠 
+- B: 🥰 // <-- RESPUESTA
 - C: SyntaxError
 - D: ReferenceError
 
@@ -1939,7 +1939,7 @@ console.log(person.getFullName?.());
 console.log(member.getLastName?.());
 ```
 - A: undefined undefined undefined undefined
-- B: Mara undefined Lydia Hallie ReferenceError
+- B: Mara undefined Lydia Hallie ReferenceError // <-- RESPUESTA
 - C: Mara null Lydia Hallie null
 - D: null ReferenceError null ReferenceError
 
@@ -1956,7 +1956,7 @@ if (groceries.indexOf('banana')) {
 }
 ```
 - A: We have to buy bananas!
-- B: We don't have to buy bananas
+- B: We don't have to buy bananas // <-- RESPUESTA
 - C: undefined
 - D: 1
 
@@ -1976,7 +1976,7 @@ console.log(config.language);
 - A: function language(lang) { this.languages.push(lang }
 - B: 0
 - C: []
-- D: undefined
+- D: undefined // <-- RESPUESTA
 
 ---
 
@@ -1989,7 +1989,7 @@ console.log(!typeof name === 'string');
 ```
 - A: false true
 - B: true false
-- C: false false
+- C: false false // <-- RESPUESTA
 - D: true true
 
 ---
@@ -2003,7 +2003,7 @@ const add = x => y => z => {
 
 add(4)(5)(6);
 ```
-- A: 4 5 6
+- A: 4 5 6 // <-- RESPUESTA
 - B: 6 5 4
 - C: 4 function function
 - D: undefined undefined 6
@@ -2027,7 +2027,7 @@ async function* range(start, end) {
 ```
 - A: Promise {1} Promise {2} Promise {3}
 - B: Promise {<pending>} Promise {<pending>} Promise {<pending>}
-- C: 1 2 3
+- C: 1 2 3 // <-- RESPUESTA
 - D: undefined undefined undefined
 
 ---
@@ -2043,7 +2043,7 @@ myFunc(1, 2, 3);
 - A: 1 2 3
 - B: {1: 1} {2: 2} {3: 3}
 - C: { 1: undefined } undefined undefined
-- D: undefined undefined undefined
+- D: undefined undefined undefined // <-- RESPUESTA
 
 ---
 
@@ -2066,7 +2066,7 @@ function getFine(speed, amount) {
 console.log(getFine(130, 300))
 ```
 - A: The driver drove 130 and has to pay 300
-- B: The driver drove 130 mph and has to pay $300.00
+- B: The driver drove 130 mph and has to pay $300.00 // <-- RESPUESTA
 - C: The driver drove undefined and has to pay undefined
 - D: The driver drove 130.00 and has to pay 300.00
 
@@ -2080,7 +2080,7 @@ const spookyItems = ['👻', '🎃', '🕸'];
 console.log(spookyItems);
 ```
 - A: ["👻", "🎃", "🕸"]
-- B: ["👻", "🎃", "🕸", "💀"]
+- B: ["👻", "🎃", "🕸", "💀"] // <-- RESPUESTA
 - C: ["👻", "🎃", "🕸", { item: "💀" }]
 - D: ["👻", "🎃", "🕸", "[object Object]"]
 
@@ -2099,7 +2099,7 @@ console.log(isNaN(age));
 ```
 - A: true false true false
 - B: true false false false
-- C: false false true false
+- C: false false true false // <-- RESPUESTA
 - D: false true false true
 
 ---
@@ -2118,7 +2118,7 @@ getInfo();
 - A: "number"
 - B: "string"
 - C: undefined
-- D: ReferenceError
+- D: ReferenceError // <-- RESPUESTA
 
 ---
 
@@ -2138,7 +2138,7 @@ const myPromise = Promise.resolve('Woah some cool data');
 ```
 - A: Woah some cool data
 - B: Oh finally!
-- C: Woah some cool data Oh finally!
+- C: Woah some cool data Oh finally! // <-- RESPUESTA
 - D: Oops didn't work Oh finally!
 
 ---
@@ -2150,7 +2150,7 @@ const emojis = ['🥑', ['✨', '✨', ['🍕', '🍕']]];
 console.log(emojis.flat(1));
 ```
 - A: ['🥑', ['✨', '✨', ['🍕', '🍕']]]
-- B: ['🥑', '✨', '✨', ['🍕', '🍕']]
+- B: ['🥑', '✨', '✨', ['🍕', '🍕']] // <-- RESPUESTA
 - C: ['🥑', ['✨', '✨', '🍕', '🍕']]
 - D: ['🥑', '✨', '✨', '🍕', '🍕']
 
@@ -2180,7 +2180,7 @@ console.log(counterOne.count);
 - A: 0
 - B: 1
 - C: 2
-- D: 3
+- D: 3 // <-- RESPUESTA
 
 ---
 
@@ -2223,7 +2223,7 @@ import * as sum from './sum';
 ```
 - A: sum(4)
 - B: sum.sum(4)
-- C: sum.default(4)
+- C: sum.default(4) // <-- RESPUESTA
 - D: Default aren't imported with *, only named exports
 
 ---
@@ -2242,7 +2242,7 @@ person.name;
 ```
 - A: Added a new property!
 - B: Accessed a property!
-- C: Added a new property! Accessed a property!
+- C: Added a new property! Accessed a property!  // <-- RESPUESTA
 - D: Nothing gets logged
 
 ---
@@ -2253,7 +2253,7 @@ const person = { name: 'Lydia Hallie' };
 
 Object.seal(person);
 ```
-- A: person.name = "Evan Bacon"
+- A: person.name = "Evan Bacon" // <-- RESPUESTA
 - B: person.age = 21
 - C: delete person.name
 - D: Object.assign(person, { age: 21 })
@@ -2273,7 +2273,7 @@ Object.freeze(person);
 ```
 - A: person.name = "Evan Bacon"
 - B: delete person.address
-- C: person.address.street = "101 Main St"
+- C: person.address.street = "101 Main St" // <-- RESPUESTA
 - D: person.pet = { name: "Mara" }
 
 ---
@@ -2288,8 +2288,8 @@ function myFunc(num = 2, value = add(num)) {
 
 myFunc();
 myFunc(3);
-```
-- A: 2 4 and 3 6
+``` 
+- A: 2 4 and 3 6 // <-- RESPUESTA
 - B: 2 NaN and 3 NaN
 - C: 2 Error and 3 6
 - D: 2 4 and 3 Error
@@ -2318,7 +2318,7 @@ console.log(counter.#number)
 - A: 10
 - B: 11
 - C: undefined
-- D: SyntaxError
+- D: SyntaxError // <-- RESPUESTA
 
 ---
 
@@ -2346,7 +2346,7 @@ obj.next(); // { value: "Paul", done: false }
 obj.next(); // { value: "Lisa", done: false }
 ```
 - A: yield getMembers(teams[i].members)
-- B: yield* getMembers(teams[i].members)
+- B: yield* getMembers(teams[i].members) // <-- RESPUESTA
 - C: return getMembers(teams[i].members)
 - D: return yield getMembers(teams[i].members)
 
@@ -2372,7 +2372,7 @@ console.log(person.hobbies);
 ```
 - A: ["coding"]
 - B: ["coding", "dancing"]
-- C: ["coding", "dancing", "baking"]
+- C: ["coding", "dancing", "baking"] // <-- RESPUESTA
 - D: ["coding", "running", "dancing", "baking"]
 
 ---
@@ -2395,7 +2395,7 @@ class Flamingo extends Bird {
 const pet = new Flamingo();
 ```
 - A: I'm pink. 🌸
-- B: I'm pink. 🌸 I'm a bird. 🦢
+- B: I'm pink. 🌸 I'm a bird. 🦢 // <-- RESPUESTA
 - C: I'm a bird. 🦢 I'm pink. 🌸
 - D: Nothing, we didn't call any method
 
@@ -2413,7 +2413,7 @@ const emojis = ['🎄', '🎅🏼', '🎁', '⭐'];
 - A: 1
 - B: 1 and 2
 - C: 3 and 4
-- D: 3
+- D: 3 // <-- RESPUESTA
 
 ---
 
@@ -2428,7 +2428,7 @@ const person = {
 ```
 - A: Nothing, object are iterable by default
 - B: *[Symbol.iterator]() { for (let x in this) yield* this[x] }
-- C: *[Symbol.iterator]() { yield* Object.values(this) }
+- C: *[Symbol.iterator]() { yield* Object.values(this) } // <-- RESPUESTA
 - D: *[Symbol.iterator]() { for (let x in this) yield this }
 
 ---
@@ -2446,7 +2446,7 @@ console.log(count)
 ```
 - A: 1
 - B: 2
-- C: 3
+- C: 3 // <-- RESPUESTA
 - D: 4
 
 ---
@@ -2464,7 +2464,7 @@ getFruit([['🍍'], ['🍊', '🍌']])
 - A: null, undefined, 🍌
 - B: [], null, 🍌
 - C: [], [], 🍌
-- D: undefined, undefined, 🍌
+- D: undefined, undefined, 🍌 // <-- RESPUESTA
 
 ---
 
@@ -2485,7 +2485,7 @@ new Calc().increase()
 
 console.log(calc.count)
 ```
-- A: 0
+- A: 0 // <-- RESPUESTA
 - B: 1
 - C: undefined
 - D: ReferenceError
@@ -2516,7 +2516,7 @@ const updatedUser = updateUser({ email: "new@email.com" })
 console.log(updatedUser === user)
 ```
 - A: false
-- B: true
+- B: true // <-- RESPUESTA
 - C: TypeError
 - D: ReferenceError
 
@@ -2534,7 +2534,7 @@ console.log(fruit)
 ```
 - A: ['🍌', '🍊', '🍎']
 - B: ['🍊', '🍎']
-- C: ['🍇', '🍊', '🍎']
+- C: ['🍇', '🍊', '🍎'] // <-- RESPUESTA
 - D: ['🍇', '🍌', '🍊', '🍎']
 
 ---
@@ -2551,8 +2551,8 @@ animals[cat] = { ...cat, name: "Sara" }
 console.log(animals[dog])
 ```
 - A: { emoji: "🐶", name: "Mara" }
-- B: { emoji: "🐈", name: "Sara" }
-- C: undefined
+- B: { emoji: "🐈",  name: "Sara" } // <-- RESPUESTA
+- C: undefined 
 - D: ReferenceError
 
 ---
@@ -2569,7 +2569,7 @@ const user = {
 user.updateEmail("new@email.com")
 console.log(user.email)
 ```
-- A: my@email.com
+- A: my@email.com // <-- RESPUESTA
 - B: new@email.com
 - C: undefined
 - D: ReferenceError
@@ -2596,7 +2596,7 @@ runPromises()
 - A: [['First', 'Second'], ['Fourth']]
 - B: [['First', 'Second'], ['Third', 'Fourth']]
 - C: [['First', 'Second']]
-- D: 'Third'
+- D: 'Third' // <-- RESPUESTA
 
 ---
 
@@ -2612,7 +2612,7 @@ Object[method](keys.map((_, i) => {
 ```
 - A: entries
 - B: values
-- C: fromEntries
+- C: fromEntries // <-- RESPUESTA
 - D: forEach
 
 ---
@@ -2634,7 +2634,7 @@ console.log(member)
 ```
 - A: { email: "my@email.com", address: null }
 - B: { email: "my@email.com" }
-- C: { email: "my@email.com", address: {} }
+- C: { email: "my@email.com", address: {} } // <-- RESPUESTA
 - D: { email: "my@email.com", address: undefined }
 
 ---
@@ -2653,5 +2653,5 @@ if (!typeof randomValue === "string") {
 - A: It's not a string!
 - B: Yay it's a string!
 - C: TypeError
-- D: undefined
+- D: undefined // <-- RESPUESTA
 
